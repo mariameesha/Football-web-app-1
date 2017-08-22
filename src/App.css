@@ -1,0 +1,38 @@
+.App {
+/*  text-align: center;
+  background-image: url("http://i55.tinypic.com/2ajkt5.jpg");
+  background-size: 100%;
+  color: white;
+*/}
+
+#players {
+text-align: center;
+}
+
+.TeamBadge {
+  animation: TeamBadge-spin infinite 2s linear;
+  height:100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes TeamBadge-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

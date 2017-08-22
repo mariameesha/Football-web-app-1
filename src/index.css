@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  background-image: url("http://i55.tinypic.com/2ajkt5.jpg");
+  background-size: 100%;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: green;
+  border: white groove 10px;
+}
